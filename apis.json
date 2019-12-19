@@ -1,0 +1,66 @@
+{
+    "name": "Music Story",
+    "description": "Music Story is a music metadata provider which increases your music offer quality.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1842-music-story.jpg",
+    "tags": [
+        "api provider",
+        "broadcasts",
+        "have api",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/music-story\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Music Story",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1842-music-story.jpg",
+            "humanURL": "http:\/\/www.music-story.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/music-story-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/music-story-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api.music-story.com\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/developers.music-story.com\/blog\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developers.music-story.com\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developers.music-story.com\/developers"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/music-story"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/music_story"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.music-story.com"
+        }
+    ]
+}
