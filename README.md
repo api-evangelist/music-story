@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Music Story is a company surfaced via the API Evangelist harvest backlog (source: music) and added to the network as a stub for full-pipeline profiling.
-- https://music-story.com/
+Music Story provides a comprehensive music metadata infrastructure, offering APIs and services that enable detailed metadata access for songs, artists, and related licensing information. Their platform supports metadata monitoring, rich credit information, and tailored solutions for music services, labels, distributors, and automotive applications, aiming to preserve the value and story behind every piece of music.
+
+**Areas:** Company · Music · Metadata · Services
+
+## Music Story on APIs.io
+
+Everything profiled for Music Story is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/music-story/](https://apis.io/providers/music-story/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Music Story API](https://apis.io/apis/music-story/music-story-api-2/) — Provides access to music metadata, credits, and licensing information via REST endpoints.
+- [Music Story Artist API](https://apis.io/apis/music-story/music-story-artist-api/) — The Artist API from Music Story — 2 operation(s) for artist.
+- [Music Story Music Story API](https://apis.io/apis/music-story/music-story-music-story-api-api/) — The Music Story API API from Music Story — 2 operation(s) for music story api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetApiApiidResponse](https://apis.io/schemas/music-story/music-story-get-api-apiid-response/)
+- [GetApiArtistIdIdResponse](https://apis.io/schemas/music-story/music-story-get-api-artist-id-id-response/)
+- [GetApiArtistIdResponse](https://apis.io/schemas/music-story/music-story-get-api-artist-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Music Story Context](https://apis.io/jsonld/music-story/music-story-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Music Story API Rules](https://apis.io/rules/music-story/music-story-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Music Story Domain Security](https://apis.io/security/music-story/music-story-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://music-story.com/)
+- [Documentation](https://doc.music-story.com)
+- [Getting started](https://music-story.com/en)
+- [API reference](https://doc.music-story.com/api/reference)
+- [Sign up](https://metadata.music-story.com/sign-up)
+- [Support](https://music-story.com/en/contact)
+- [Changelog](https://doc.music-story.com/changelog)
+- [Terms of service](https://music-story.com/en/terms)
+- [Privacy policy](https://music-story.com/en/privacy)
+- [GitHub](https://github.com/music-story)
+
+## API Evangelist rating
+
+**Kin Score 36.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 23.6 |
+| Contract governance | 35.6 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 20.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/music-story/](https://apis.io/providers/music-story/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Music Story: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/music-story/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
